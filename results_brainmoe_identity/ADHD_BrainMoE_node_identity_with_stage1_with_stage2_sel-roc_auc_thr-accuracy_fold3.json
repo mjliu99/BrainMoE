@@ -1,0 +1,38 @@
+{
+  "fold": 3,
+  "best_epoch": 10,
+  "selection_metric": "roc_auc",
+  "threshold_metric": "accuracy",
+  "best_val_roc_auc": 0.6220735785953178,
+  "best_threshold": 0.625,
+  "test_metrics": {
+    "balanced_acc": 0.5548469387755102,
+    "accuracy": 0.564935064935065,
+    "precision": 0.42028985507246375,
+    "recall": 0.5178571428571429,
+    "f1_score": 0.464,
+    "roc_auc": 0.6495991253644314,
+    "threshold": 0.625
+  },
+  "gate_usage": {
+    "mean_gate_weight": {
+      "mlp": 0.11807966977357864,
+      "cheb": 0.3319580852985382,
+      "gt": 0.2141064554452896,
+      "gcn": 0.33585578203201294
+    },
+    "selection_rate": {
+      "mlp": 0.39677563309669495,
+      "cheb": 0.894368588924408,
+      "gt": 0.7267689108848572,
+      "gcn": 0.9820868968963623
+    },
+    "mean_router_prob": {
+      "mlp": 0.20525026321411133,
+      "cheb": 0.29139283299446106,
+      "gt": 0.22740885615348816,
+      "gcn": 0.27594807744026184
+    },
+    "avg_graph_gate_entropy": 1.3087308809354707
+  }
+}

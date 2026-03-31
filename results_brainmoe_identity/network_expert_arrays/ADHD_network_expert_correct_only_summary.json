@@ -1,0 +1,41 @@
+{
+  "dataset": "ADHD",
+  "only_correct": true,
+  "network_order": [
+    "SMN",
+    "DMN",
+    "FPN",
+    "DAN",
+    "VN",
+    "LIN",
+    "SBN",
+    "VAN",
+    "CBL"
+  ],
+  "expert_names": [
+    "mlp",
+    "cheb",
+    "gt",
+    "gcn"
+  ],
+  "hc_soft_shape": [
+    719,
+    9,
+    4
+  ],
+  "adhd_soft_shape": [
+    222,
+    9,
+    4
+  ],
+  "hc_hard_shape": [
+    719,
+    9,
+    4
+  ],
+  "adhd_hard_shape": [
+    222,
+    9,
+    4
+  ]
+}

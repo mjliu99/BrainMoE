@@ -1,0 +1,239 @@
+{
+  "dataset": "ADHD",
+  "model": "BrainMoE_node_identity_with_stage1_with_stage2_sel-accuracy_thr-accuracy",
+  "selection_metric": "accuracy",
+  "threshold_metric": "accuracy",
+  "experts": [
+    "mlp",
+    "cheb",
+    "gt",
+    "gcn"
+  ],
+  "router_level": "node",
+  "graph_prior_level": "graph_soft_mixing",
+  "use_identity": true,
+  "use_llm_stage1": true,
+  "use_llm_stage2": true,
+  "lambda_importance": 0.01,
+  "lambda_load": 0.01,
+  "lambda_z": 0.0001,
+  "feature_noise_robustness": [
+    {
+      "noise_std": 0.0,
+      "mean": 0.6422888927294039,
+      "std": 0.0183628368386819
+    },
+    {
+      "noise_std": 0.05,
+      "mean": 0.6403728096540531,
+      "std": 0.016549394477552215
+    },
+    {
+      "noise_std": 0.1,
+      "mean": 0.640292503231042,
+      "std": 0.016564281745413856
+    },
+    {
+      "noise_std": 0.15,
+      "mean": 0.6416055836915031,
+      "std": 0.018392103362588133
+    },
+    {
+      "noise_std": 0.2,
+      "mean": 0.643608313170629,
+      "std": 0.013959951232465347
+    },
+    {
+      "noise_std": 0.25,
+      "mean": 0.6407738721409034,
+      "std": 0.01304959089340045
+    },
+    {
+      "noise_std": 0.3,
+      "mean": 0.6441824336509272,
+      "std": 0.01620835453295799
+    }
+  ],
+  "neuro_guided_bias": {
+    "use_neuro_bias": false,
+    "neuro_bias_scale_init": 0.3
+  },
+  "identity_definition": {
+    "structural_prior_identity": "AAL.xlsx column E",
+    "topological_role_identity": [
+      "degree",
+      "strength",
+      "participation_coefficient",
+      "within_ratio",
+      "clustering",
+      "avg_neigh_deg",
+      "two_hop",
+      "eigencent"
+    ]
+  },
+  "num_nets": 9,
+  "network_mapping": {
+    "SMN": 0,
+    "DMN": 1,
+    "FPN": 2,
+    "LIN": 3,
+    "DAN": 4,
+    "VAN": 5,
+    "SBN": 6,
+    "VN": 7,
+    "CBL": 8
+  },
+  "llm_dim": 3072,
+  "loss_weights": {
+    "lambda_prior": 0.0,
+    "lambda_soft_graph_balance": 0.003,
+    "lambda_soft_expert_balance": 0.003,
+    "lambda_min_usage": 0.0,
+    "min_usage": 0.08
+  },
+  "router_settings": {
+    "top_k": 2,
+    "router_noise_std": 0.055,
+    "router_temperature_init": 2.5,
+    "schedule": "epochs 1-6: topk=4,temp=2.5; epochs 7-15: topk=3,temp=1.8; epochs>=16: topk=final,temp=1.2",
+    "stage1_prior_mixing": true
+  },
+  "threshold_search": {
+    "thr_min": 0.35,
+    "thr_max": 0.65,
+    "thr_steps": 61
+  },
+  "metrics_mean_std": {
+    "balanced_acc": {
+      "mean": 0.5862954975804755,
+      "std": 0.0238678575972065
+    },
+    "accuracy": {
+      "mean": 0.6457686104744929,
+      "std": 0.024908649777645644
+    },
+    "precision": {
+      "mean": 0.5456744303759778,
+      "std": 0.06371723825628212
+    },
+    "recall": {
+      "mean": 0.3678571428571429,
+      "std": 0.1770470651135063
+    },
+    "f1_score": {
+      "mean": 0.4113882585081776,
+      "std": 0.10625270109795724
+    },
+    "roc_auc": {
+      "mean": 0.640929788704878,
+      "std": 0.01619046482718924
+    }
+  },
+  "gate_usage_mean_std": {
+    "mean_gate_weight": {
+      "mlp": {
+        "mean": 0.10439354730769992,
+        "std": 0.0873129339910119
+      },
+      "cheb": {
+        "mean": 0.3198956727981567,
+        "std": 0.09669946315350864
+      },
+      "gt": {
+        "mean": 0.27159586250782014,
+        "std": 0.07324377890077294
+      },
+      "gcn": {
+        "mean": 0.30411492586135863,
+        "std": 0.045474879890233286
+      }
+    },
+    "selection_rate": {
+      "mlp": {
+        "mean": 0.3933836271986365,
+        "std": 0.3639379513491117
+      },
+      "cheb": {
+        "mean": 0.9338553547859192,
+        "std": 0.1477150044934392
+      },
+      "gt": {
+        "mean": 0.9146665930747986,
+        "std": 0.11320836156876264
+      },
+      "gcn": {
+        "mean": 0.9580944061279297,
+        "std": 0.06112638787609385
+      }
+    },
+    "mean_router_prob": {
+      "mlp": {
+        "mean": 0.1968745082616806,
+        "std": 0.03274049223419917
+      },
+      "cheb": {
+        "mean": 0.28455424308776855,
+        "std": 0.050755614882580805
+      },
+      "gt": {
+        "mean": 0.24996589124202728,
+        "std": 0.04207828226205369
+      },
+      "gcn": {
+        "mean": 0.2686053872108459,
+        "std": 0.03041135740784152
+      }
+    },
+    "avg_graph_gate_entropy": {
+      "mean": 1.2590055885182185,
+      "std": 0.10029686356496013
+    }
+  },
+  "majority_class_acc": 0.6354166666666666,
+  "args": {
+    "dataset": "ADHD",
+    "seed": 42,
+    "hidden_dim": 128,
+    "llm_hidden_dim": 64,
+    "top_k": 2,
+    "dropout": 0.1,
+    "batch_size": 32,
+    "num_epochs": 60,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "lambda_prior": 0.0,
+    "lambda_soft_graph_balance": 0.003,
+    "lambda_soft_expert_balance": 0.003,
+    "lambda_min_usage": 0.0,
+    "min_usage": 0.08,
+    "router_noise_std": 0.055,
+    "router_temperature": 2.5,
+    "router_warmup_epochs": 16,
+    "stage1_scale_init": 0.35,
+    "n_splits": 5,
+    "val_ratio": 0.1,
+    "use_class_weight": false,
+    "lambda_importance": 0.01,
+    "lambda_load": 0.01,
+    "lambda_z": 0.0001,
+    "selection_metric": "accuracy",
+    "threshold_metric": "accuracy",
+    "thr_min": 0.35,
+    "thr_max": 0.65,
+    "thr_steps": 61,
+    "scheduler_factor": 0.5,
+    "scheduler_patience": 8,
+    "min_lr": 1e-06,
+    "early_stop_patience": 12,
+    "early_stop_use_moving_avg": false,
+    "moving_avg_window": 3,
+    "use_identity": true,
+    "use_llm_stage1": true,
+    "use_llm_stage2": true,
+    "use_neuro_bias": false,
+    "neuro_bias_scale_init": 0.3,
+    "aal_xlsx": "/root/autodl-tmp/BrainMoE-02/isdt/AAL.xlsx",
+    "llm_cache_dir": "/root/autodl-tmp/BrainMoE-02/data/abnormal_llm_cache",
+    "results_dir": "results_brainmoe_identity"
+  }
+}

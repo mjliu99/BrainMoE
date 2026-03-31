@@ -1,0 +1,698 @@
+[
+  {
+    "node_index": 1,
+    "roi_name": "Precentral_L",
+    "network": "SMN",
+    "short_desc": "precentral gyrus (primary motor cortex); left hemisphere; sensorimotor processing and motor execution (SMN)."
+  },
+  {
+    "node_index": 2,
+    "roi_name": "Precentral_R",
+    "network": "SMN",
+    "short_desc": "precentral gyrus (primary motor cortex); right hemisphere; sensorimotor processing and motor execution (SMN)."
+  },
+  {
+    "node_index": 3,
+    "roi_name": "Frontal_Sup_L",
+    "network": "DMN",
+    "short_desc": "superior frontal gyrus (dorsolateral); left hemisphere; internally directed cognition and self-referential processing (DMN)."
+  },
+  {
+    "node_index": 4,
+    "roi_name": "Frontal_Sup_R",
+    "network": "FPN",
+    "short_desc": "superior frontal gyrus (dorsolateral); right hemisphere; executive control and adaptive task regulation (FPN)."
+  },
+  {
+    "node_index": 5,
+    "roi_name": "Frontal_Sup_Orb_L",
+    "network": "LIN",
+    "short_desc": "superior frontal gyrus (orbital part); left hemisphere; emotion/reward valuation and affective processing (LIN)."
+  },
+  {
+    "node_index": 6,
+    "roi_name": "Frontal_Sup_Orb_R",
+    "network": "FPN",
+    "short_desc": "superior frontal gyrus (orbital part); right hemisphere; executive control and adaptive task regulation (FPN)."
+  },
+  {
+    "node_index": 7,
+    "roi_name": "Frontal_Mid_L",
+    "network": "DMN",
+    "short_desc": "middle frontal gyrus; left hemisphere; internally directed cognition and self-referential processing (DMN)."
+  },
+  {
+    "node_index": 8,
+    "roi_name": "Frontal_Mid_R",
+    "network": "FPN",
+    "short_desc": "middle frontal gyrus; right hemisphere; executive control and adaptive task regulation (FPN)."
+  },
+  {
+    "node_index": 9,
+    "roi_name": "Frontal_Mid_Orb_L",
+    "network": "LIN",
+    "short_desc": "middle frontal gyrus (orbital part); left hemisphere; emotion/reward valuation and affective processing (LIN)."
+  },
+  {
+    "node_index": 10,
+    "roi_name": "Frontal_Mid_Orb_R",
+    "network": "FPN",
+    "short_desc": "middle frontal gyrus (orbital part); right hemisphere; executive control and adaptive task regulation (FPN)."
+  },
+  {
+    "node_index": 11,
+    "roi_name": "Frontal_Inf_Oper_L",
+    "network": "FPN",
+    "short_desc": "inferior frontal gyrus (opercular part); left hemisphere; executive control and adaptive task regulation (FPN)."
+  },
+  {
+    "node_index": 12,
+    "roi_name": "Frontal_Inf_Oper_R",
+    "network": "DAN",
+    "short_desc": "inferior frontal gyrus (opercular part); right hemisphere; goal-directed attention and top-down orienting (DAN)."
+  },
+  {
+    "node_index": 13,
+    "roi_name": "Frontal_Inf_Tri_L",
+    "network": "FPN",
+    "short_desc": "inferior frontal gyrus (triangular part); left hemisphere; executive control and adaptive task regulation (FPN)."
+  },
+  {
+    "node_index": 14,
+    "roi_name": "Frontal_Inf_Tri_R",
+    "network": "FPN",
+    "short_desc": "inferior frontal gyrus (triangular part); right hemisphere; executive control and adaptive task regulation (FPN)."
+  },
+  {
+    "node_index": 15,
+    "roi_name": "Frontal_Inf_Orb_L",
+    "network": "DMN",
+    "short_desc": "inferior frontal gyrus (orbital part); left hemisphere; internally directed cognition and self-referential processing (DMN)."
+  },
+  {
+    "node_index": 16,
+    "roi_name": "Frontal_Inf_Orb_R",
+    "network": "DMN",
+    "short_desc": "inferior frontal gyrus (orbital part); right hemisphere; internally directed cognition and self-referential processing (DMN)."
+  },
+  {
+    "node_index": 17,
+    "roi_name": "Rolandic_Oper_L",
+    "network": "SMN",
+    "short_desc": "rolandic operculum; left hemisphere; sensorimotor processing and motor execution (SMN)."
+  },
+  {
+    "node_index": 18,
+    "roi_name": "Rolandic_Oper_R",
+    "network": "DAN",
+    "short_desc": "rolandic operculum; right hemisphere; goal-directed attention and top-down orienting (DAN)."
+  },
+  {
+    "node_index": 19,
+    "roi_name": "Supp_Motor_Area_L",
+    "network": "SMN",
+    "short_desc": "supplementary motor area (SMA); left hemisphere; sensorimotor processing and motor execution (SMN)."
+  },
+  {
+    "node_index": 20,
+    "roi_name": "Supp_Motor_Area_R",
+    "network": "SMN",
+    "short_desc": "supplementary motor area (SMA); right hemisphere; sensorimotor processing and motor execution (SMN)."
+  },
+  {
+    "node_index": 21,
+    "roi_name": "Olfactory_L",
+    "network": "LIN",
+    "short_desc": "olfactory cortex; left hemisphere; emotion/reward valuation and affective processing (LIN)."
+  },
+  {
+    "node_index": 22,
+    "roi_name": "Olfactory_R",
+    "network": "LIN",
+    "short_desc": "olfactory cortex; right hemisphere; emotion/reward valuation and affective processing (LIN)."
+  },
+  {
+    "node_index": 23,
+    "roi_name": "Frontal_Sup_Medial_L",
+    "network": "DMN",
+    "short_desc": "medial superior frontal gyrus (mPFC); left hemisphere; internally directed cognition and self-referential processing (DMN)."
+  },
+  {
+    "node_index": 24,
+    "roi_name": "Frontal_Sup_Medial_R",
+    "network": "FPN",
+    "short_desc": "medial superior frontal gyrus (mPFC); right hemisphere; executive control and adaptive task regulation (FPN)."
+  },
+  {
+    "node_index": 25,
+    "roi_name": "Frontal_Mid_Orb_L",
+    "network": "LIN",
+    "short_desc": "medial orbitofrontal cortex (superior medial orbital); left hemisphere; emotion/reward valuation and affective processing (LIN)."
+  },
+  {
+    "node_index": 26,
+    "roi_name": "Frontal_Mid_Orb_R",
+    "network": "LIN",
+    "short_desc": "medial orbitofrontal cortex (superior medial orbital); right hemisphere; emotion/reward valuation and affective processing (LIN)."
+  },
+  {
+    "node_index": 27,
+    "roi_name": "Rectus_L",
+    "network": "LIN",
+    "short_desc": "gyrus rectus (medial orbitofrontal cortex); left hemisphere; emotion/reward valuation and affective processing (LIN)."
+  },
+  {
+    "node_index": 28,
+    "roi_name": "Rectus_R",
+    "network": "LIN",
+    "short_desc": "gyrus rectus (medial orbitofrontal cortex); right hemisphere; emotion/reward valuation and affective processing (LIN)."
+  },
+  {
+    "node_index": 29,
+    "roi_name": "Insula_L",
+    "network": "VAN",
+    "short_desc": "insula; left hemisphere; stimulus-driven attention and salience/reorienting (VAN)."
+  },
+  {
+    "node_index": 30,
+    "roi_name": "Insula_R",
+    "network": "VAN",
+    "short_desc": "insula; right hemisphere; stimulus-driven attention and salience/reorienting (VAN)."
+  },
+  {
+    "node_index": 31,
+    "roi_name": "Cingulum_Ant_L",
+    "network": "DMN",
+    "short_desc": "anterior cingulate cortex; left hemisphere; internally directed cognition and self-referential processing (DMN)."
+  },
+  {
+    "node_index": 32,
+    "roi_name": "Cingulum_Ant_R",
+    "network": "SBN",
+    "short_desc": "anterior cingulate cortex; right hemisphere; subcortical gating, reward learning, and salience modulation (SBN)."
+  },
+  {
+    "node_index": 33,
+    "roi_name": "Cingulum_Mid_L",
+    "network": "VAN",
+    "short_desc": "middle cingulate cortex; left hemisphere; stimulus-driven attention and salience/reorienting (VAN)."
+  },
+  {
+    "node_index": 34,
+    "roi_name": "Cingulum_Mid_R",
+    "network": "VAN",
+    "short_desc": "middle cingulate cortex; right hemisphere; stimulus-driven attention and salience/reorienting (VAN)."
+  },
+  {
+    "node_index": 35,
+    "roi_name": "Cingulum_Post_L",
+    "network": "DMN",
+    "short_desc": "posterior cingulate cortex; left hemisphere; internally directed cognition and self-referential processing (DMN)."
+  },
+  {
+    "node_index": 36,
+    "roi_name": "Cingulum_Post_R",
+    "network": "DMN",
+    "short_desc": "posterior cingulate cortex; right hemisphere; internally directed cognition and self-referential processing (DMN)."
+  },
+  {
+    "node_index": 37,
+    "roi_name": "Hippocampus_L",
+    "network": "SBN",
+    "short_desc": "hippocampus; left hemisphere; subcortical gating, reward learning, and salience modulation (SBN)."
+  },
+  {
+    "node_index": 38,
+    "roi_name": "Hippocampus_R",
+    "network": "SBN",
+    "short_desc": "hippocampus; right hemisphere; subcortical gating, reward learning, and salience modulation (SBN)."
+  },
+  {
+    "node_index": 39,
+    "roi_name": "ParaHippocampal_L",
+    "network": "LIN",
+    "short_desc": "parahippocampal gyrus; left hemisphere; emotion/reward valuation and affective processing (LIN)."
+  },
+  {
+    "node_index": 40,
+    "roi_name": "ParaHippocampal_R",
+    "network": "LIN",
+    "short_desc": "parahippocampal gyrus; right hemisphere; emotion/reward valuation and affective processing (LIN)."
+  },
+  {
+    "node_index": 41,
+    "roi_name": "Amygdala_L",
+    "network": "SBN",
+    "short_desc": "amygdala; left hemisphere; subcortical gating, reward learning, and salience modulation (SBN)."
+  },
+  {
+    "node_index": 42,
+    "roi_name": "Amygdala_R",
+    "network": "SBN",
+    "short_desc": "amygdala; right hemisphere; subcortical gating, reward learning, and salience modulation (SBN)."
+  },
+  {
+    "node_index": 43,
+    "roi_name": "Calcarine_L",
+    "network": "VN",
+    "short_desc": "calcarine cortex (primary visual cortex); left hemisphere; visual perception and visual association processing (VN)."
+  },
+  {
+    "node_index": 44,
+    "roi_name": "Calcarine_R",
+    "network": "VN",
+    "short_desc": "calcarine cortex (primary visual cortex); right hemisphere; visual perception and visual association processing (VN)."
+  },
+  {
+    "node_index": 45,
+    "roi_name": "Cuneus_L",
+    "network": "VN",
+    "short_desc": "cuneus; left hemisphere; visual perception and visual association processing (VN)."
+  },
+  {
+    "node_index": 46,
+    "roi_name": "Cuneus_R",
+    "network": "VN",
+    "short_desc": "cuneus; right hemisphere; visual perception and visual association processing (VN)."
+  },
+  {
+    "node_index": 47,
+    "roi_name": "Lingual_L",
+    "network": "VN",
+    "short_desc": "lingual gyrus; left hemisphere; visual perception and visual association processing (VN)."
+  },
+  {
+    "node_index": 48,
+    "roi_name": "Lingual_R",
+    "network": "VN",
+    "short_desc": "lingual gyrus; right hemisphere; visual perception and visual association processing (VN)."
+  },
+  {
+    "node_index": 49,
+    "roi_name": "Occipital_Sup_L",
+    "network": "VN",
+    "short_desc": "superior occipital gyrus; left hemisphere; visual perception and visual association processing (VN)."
+  },
+  {
+    "node_index": 50,
+    "roi_name": "Occipital_Sup_R",
+    "network": "VN",
+    "short_desc": "superior occipital gyrus; right hemisphere; visual perception and visual association processing (VN)."
+  },
+  {
+    "node_index": 51,
+    "roi_name": "Occipital_Mid_L",
+    "network": "VN",
+    "short_desc": "middle occipital gyrus; left hemisphere; visual perception and visual association processing (VN)."
+  },
+  {
+    "node_index": 52,
+    "roi_name": "Occipital_Mid_R",
+    "network": "VN",
+    "short_desc": "middle occipital gyrus; right hemisphere; visual perception and visual association processing (VN)."
+  },
+  {
+    "node_index": 53,
+    "roi_name": "Occipital_Inf_L",
+    "network": "VN",
+    "short_desc": "inferior occipital gyrus; left hemisphere; visual perception and visual association processing (VN)."
+  },
+  {
+    "node_index": 54,
+    "roi_name": "Occipital_Inf_R",
+    "network": "VN",
+    "short_desc": "inferior occipital gyrus; right hemisphere; visual perception and visual association processing (VN)."
+  },
+  {
+    "node_index": 55,
+    "roi_name": "Fusiform_L",
+    "network": "VN",
+    "short_desc": "fusiform gyrus; left hemisphere; visual perception and visual association processing (VN)."
+  },
+  {
+    "node_index": 56,
+    "roi_name": "Fusiform_R",
+    "network": "VN",
+    "short_desc": "fusiform gyrus; right hemisphere; visual perception and visual association processing (VN)."
+  },
+  {
+    "node_index": 57,
+    "roi_name": "Postcentral_L",
+    "network": "SMN",
+    "short_desc": "postcentral gyrus (primary somatosensory cortex); left hemisphere; sensorimotor processing and motor execution (SMN)."
+  },
+  {
+    "node_index": 58,
+    "roi_name": "Postcentral_R",
+    "network": "SMN",
+    "short_desc": "postcentral gyrus (primary somatosensory cortex); right hemisphere; sensorimotor processing and motor execution (SMN)."
+  },
+  {
+    "node_index": 59,
+    "roi_name": "Parietal_Sup_L",
+    "network": "DAN",
+    "short_desc": "superior parietal lobule; left hemisphere; goal-directed attention and top-down orienting (DAN)."
+  },
+  {
+    "node_index": 60,
+    "roi_name": "Parietal_Sup_R",
+    "network": "DAN",
+    "short_desc": "superior parietal lobule; right hemisphere; goal-directed attention and top-down orienting (DAN)."
+  },
+  {
+    "node_index": 61,
+    "roi_name": "Parietal_Inf_L",
+    "network": "FPN",
+    "short_desc": "inferior parietal lobule; left hemisphere; executive control and adaptive task regulation (FPN)."
+  },
+  {
+    "node_index": 62,
+    "roi_name": "Parietal_Inf_R",
+    "network": "FPN",
+    "short_desc": "inferior parietal lobule; right hemisphere; executive control and adaptive task regulation (FPN)."
+  },
+  {
+    "node_index": 63,
+    "roi_name": "SupraMarginal_L",
+    "network": "DAN",
+    "short_desc": "supramarginal gyrus; left hemisphere; goal-directed attention and top-down orienting (DAN)."
+  },
+  {
+    "node_index": 64,
+    "roi_name": "SupraMarginal_R",
+    "network": "DAN",
+    "short_desc": "supramarginal gyrus; right hemisphere; goal-directed attention and top-down orienting (DAN)."
+  },
+  {
+    "node_index": 65,
+    "roi_name": "Angular_L",
+    "network": "DMN",
+    "short_desc": "angular gyrus; left hemisphere; internally directed cognition and self-referential processing (DMN)."
+  },
+  {
+    "node_index": 66,
+    "roi_name": "Angular_R",
+    "network": "DMN",
+    "short_desc": "angular gyrus; right hemisphere; internally directed cognition and self-referential processing (DMN)."
+  },
+  {
+    "node_index": 67,
+    "roi_name": "Precuneus_L",
+    "network": "FPN",
+    "short_desc": "precuneus; left hemisphere; executive control and adaptive task regulation (FPN)."
+  },
+  {
+    "node_index": 68,
+    "roi_name": "Precuneus_R",
+    "network": "FPN",
+    "short_desc": "precuneus; right hemisphere; executive control and adaptive task regulation (FPN)."
+  },
+  {
+    "node_index": 69,
+    "roi_name": "Paracentral_Lobule_L",
+    "network": "SMN",
+    "short_desc": "paracentral lobule; left hemisphere; sensorimotor processing and motor execution (SMN)."
+  },
+  {
+    "node_index": 70,
+    "roi_name": "Paracentral_Lobule_R",
+    "network": "SMN",
+    "short_desc": "paracentral lobule; right hemisphere; sensorimotor processing and motor execution (SMN)."
+  },
+  {
+    "node_index": 71,
+    "roi_name": "Caudate_L",
+    "network": "SBN",
+    "short_desc": "caudate nucleus; left hemisphere; subcortical gating, reward learning, and salience modulation (SBN)."
+  },
+  {
+    "node_index": 72,
+    "roi_name": "Caudate_R",
+    "network": "SBN",
+    "short_desc": "caudate nucleus; right hemisphere; subcortical gating, reward learning, and salience modulation (SBN)."
+  },
+  {
+    "node_index": 73,
+    "roi_name": "Putamen_L",
+    "network": "SBN",
+    "short_desc": "putamen; left hemisphere; subcortical gating, reward learning, and salience modulation (SBN)."
+  },
+  {
+    "node_index": 74,
+    "roi_name": "Putamen_R",
+    "network": "SBN",
+    "short_desc": "putamen; right hemisphere; subcortical gating, reward learning, and salience modulation (SBN)."
+  },
+  {
+    "node_index": 75,
+    "roi_name": "Pallidum_L",
+    "network": "SBN",
+    "short_desc": "globus pallidus; left hemisphere; subcortical gating, reward learning, and salience modulation (SBN)."
+  },
+  {
+    "node_index": 76,
+    "roi_name": "Pallidum_R",
+    "network": "SBN",
+    "short_desc": "globus pallidus; right hemisphere; subcortical gating, reward learning, and salience modulation (SBN)."
+  },
+  {
+    "node_index": 77,
+    "roi_name": "Thalamus_L",
+    "network": "SBN",
+    "short_desc": "thalamus; left hemisphere; subcortical gating, reward learning, and salience modulation (SBN)."
+  },
+  {
+    "node_index": 78,
+    "roi_name": "Thalamus_R",
+    "network": "SBN",
+    "short_desc": "thalamus; right hemisphere; subcortical gating, reward learning, and salience modulation (SBN)."
+  },
+  {
+    "node_index": 79,
+    "roi_name": "Heschl_L",
+    "network": "SMN",
+    "short_desc": "Heschl's gyrus (primary auditory cortex); left hemisphere; sensorimotor processing and motor execution (SMN)."
+  },
+  {
+    "node_index": 80,
+    "roi_name": "Heschl_R",
+    "network": "SMN",
+    "short_desc": "Heschl's gyrus (primary auditory cortex); right hemisphere; sensorimotor processing and motor execution (SMN)."
+  },
+  {
+    "node_index": 81,
+    "roi_name": "Temporal_Sup_L",
+    "network": "SMN",
+    "short_desc": "superior temporal gyrus; left hemisphere; sensorimotor processing and motor execution (SMN)."
+  },
+  {
+    "node_index": 82,
+    "roi_name": "Temporal_Sup_R",
+    "network": "SMN",
+    "short_desc": "superior temporal gyrus; right hemisphere; sensorimotor processing and motor execution (SMN)."
+  },
+  {
+    "node_index": 83,
+    "roi_name": "Temporal_Pole_Sup_L",
+    "network": "LIN",
+    "short_desc": "temporal pole (superior part); left hemisphere; emotion/reward valuation and affective processing (LIN)."
+  },
+  {
+    "node_index": 84,
+    "roi_name": "Temporal_Pole_Sup_R",
+    "network": "LIN",
+    "short_desc": "temporal pole (superior part); right hemisphere; emotion/reward valuation and affective processing (LIN)."
+  },
+  {
+    "node_index": 85,
+    "roi_name": "Temporal_Mid_L",
+    "network": "DMN",
+    "short_desc": "middle temporal gyrus; left hemisphere; internally directed cognition and self-referential processing (DMN)."
+  },
+  {
+    "node_index": 86,
+    "roi_name": "Temporal_Mid_R",
+    "network": "DMN",
+    "short_desc": "middle temporal gyrus; right hemisphere; internally directed cognition and self-referential processing (DMN)."
+  },
+  {
+    "node_index": 87,
+    "roi_name": "Temporal_Pole_Mid_L",
+    "network": "LIN",
+    "short_desc": "temporal pole (middle part); left hemisphere; emotion/reward valuation and affective processing (LIN)."
+  },
+  {
+    "node_index": 88,
+    "roi_name": "Temporal_Pole_Mid_R",
+    "network": "LIN",
+    "short_desc": "temporal pole (middle part); right hemisphere; emotion/reward valuation and affective processing (LIN)."
+  },
+  {
+    "node_index": 89,
+    "roi_name": "Temporal_Inf_L",
+    "network": "LIN",
+    "short_desc": "inferior temporal gyrus; left hemisphere; emotion/reward valuation and affective processing (LIN)."
+  },
+  {
+    "node_index": 90,
+    "roi_name": "Temporal_Inf_R",
+    "network": "LIN",
+    "short_desc": "inferior temporal gyrus; right hemisphere; emotion/reward valuation and affective processing (LIN)."
+  },
+  {
+    "node_index": 91,
+    "roi_name": "Cerebelum_Crus1_L",
+    "network": "CBL",
+    "short_desc": "cerebellum Crus I; left hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 92,
+    "roi_name": "Cerebelum_Crus1_R",
+    "network": "CBL",
+    "short_desc": "cerebellum Crus I; right hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 93,
+    "roi_name": "Cerebelum_Crus2_L",
+    "network": "CBL",
+    "short_desc": "cerebellum Crus II; left hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 94,
+    "roi_name": "Cerebelum_Crus2_R",
+    "network": "CBL",
+    "short_desc": "cerebellum Crus II; right hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 95,
+    "roi_name": "Cerebelum_3_L",
+    "network": "CBL",
+    "short_desc": "cerebellar lobule III; left hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 96,
+    "roi_name": "Cerebelum_3_R",
+    "network": "CBL",
+    "short_desc": "cerebellar lobule III; right hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 97,
+    "roi_name": "Cerebelum_4_5_L",
+    "network": "CBL",
+    "short_desc": "cerebellar lobules IV–V; left hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 98,
+    "roi_name": "Cerebelum_4_5_R",
+    "network": "CBL",
+    "short_desc": "cerebellar lobules IV–V; right hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 99,
+    "roi_name": "Cerebelum_6_L",
+    "network": "CBL",
+    "short_desc": "cerebellar lobule VI; left hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 100,
+    "roi_name": "Cerebelum_6_R",
+    "network": "CBL",
+    "short_desc": "cerebellar lobule VI; right hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 101,
+    "roi_name": "Cerebelum_7b_L",
+    "network": "CBL",
+    "short_desc": "cerebellar lobule VIIb; left hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 102,
+    "roi_name": "Cerebelum_7b_R",
+    "network": "CBL",
+    "short_desc": "cerebellar lobule VIIb; right hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 103,
+    "roi_name": "Cerebelum_8_L",
+    "network": "CBL",
+    "short_desc": "cerebellar lobule VIII; left hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 104,
+    "roi_name": "Cerebelum_8_R",
+    "network": "CBL",
+    "short_desc": "cerebellar lobule VIII; right hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 105,
+    "roi_name": "Cerebelum_9_L",
+    "network": "CBL",
+    "short_desc": "cerebellar lobule IX; left hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 106,
+    "roi_name": "Cerebelum_9_R",
+    "network": "CBL",
+    "short_desc": "cerebellar lobule IX; right hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 107,
+    "roi_name": "Cerebelum_10_L",
+    "network": "CBL",
+    "short_desc": "cerebellar lobule X; left hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 108,
+    "roi_name": "Cerebelum_10_R",
+    "network": "CBL",
+    "short_desc": "cerebellar lobule X; right hemisphere; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 109,
+    "roi_name": "Vermis_1_2",
+    "network": "CBL",
+    "short_desc": "cerebellar vermis lobules I–II; midline; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 110,
+    "roi_name": "Vermis_3",
+    "network": "CBL",
+    "short_desc": "cerebellar vermis lobule III; midline; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 111,
+    "roi_name": "Vermis_4_5",
+    "network": "CBL",
+    "short_desc": "cerebellar vermis lobules IV–V; midline; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 112,
+    "roi_name": "Vermis_6",
+    "network": "CBL",
+    "short_desc": "cerebellar vermis lobule VI; midline; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 113,
+    "roi_name": "Vermis_7",
+    "network": "CBL",
+    "short_desc": "cerebellar vermis lobule VII; midline; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 114,
+    "roi_name": "Vermis_8",
+    "network": "CBL",
+    "short_desc": "cerebellar vermis lobule VIII; midline; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 115,
+    "roi_name": "Vermis_9",
+    "network": "CBL",
+    "short_desc": "cerebellar vermis lobule IX; midline; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  },
+  {
+    "node_index": 116,
+    "roi_name": "Vermis_10",
+    "network": "CBL",
+    "short_desc": "cerebellar vermis lobule X; midline; cerebellar coordination and timing; motor/cognitive modulation (CBL)."
+  }
+]

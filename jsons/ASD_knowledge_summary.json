@@ -1,0 +1,131 @@
+[
+  {
+    "id": "ASD-DMN-001",
+    "disorder": "ASD",
+    "summary": "The Default Mode Network (DMN) frequently exhibits reduced intra-network connectivity (particularly PCC–mPFC) and weakened anticorrelation with task-positive networks, which is associated with social-cognitive deficits.",
+    "regions_AAL_C": [
+      "Cingulum_Post_L",
+      "Cingulum_Post_R",
+      "Precuneus_L",
+      "Precuneus_R",
+      "Frontal_Sup_Medial_L",
+      "Frontal_Sup_Medial_R",
+      "Angular_L",
+      "Angular_R",
+      "Temporal_Pole_Sup_L",
+      "Temporal_Pole_Sup_R",
+      "Temporal_Pole_Mid_L",
+      "Temporal_Pole_Mid_R"
+    ],
+    "networks_E": ["DMN", "FPN", "DAN", "LIM"],
+    "claims": [
+      "PCC–mPFC functional connectivity is frequently observed as decreased in ASD group studies.",
+      "DMN–task-positive (DAN/FPN) anticorrelation is often reduced, suggesting poor network segregation.",
+      "Atypical DMN coupling is statistically linked to impairments in Theory of Mind and social cognition."
+    ]
+  },
+  {
+    "id": "ASD-SENS-002",
+    "disorder": "ASD",
+    "summary": "Primary sensory cortices (visual/somatosensory) often show atypical local synchrony (e.g., altered ReHo) and reduced long-range integration. This aligns with the 'local overconnectivity' hypothesis, though findings vary by sensory modality.",
+    "regions_AAL_C": [
+      "Calcarine_L",
+      "Calcarine_R",
+      "Lingual_L",
+      "Lingual_R",
+      "Postcentral_L",
+      "Postcentral_R",
+      "Temporal_Sup_L",
+      "Temporal_Sup_R"
+    ],
+    "networks_E": ["VIS", "SMN"],
+    "claims": [
+      "Local functional synchrony (ReHo) is frequently reported as atypical in V1 and S1.",
+      "Cross-network integration between sensory and higher-order systems is often weakened.",
+      "Sensory hypersensitivity scores correlate with posterior local connectivity patterns."
+    ]
+  },
+  {
+    "id": "ASD-SN-FPN-003",
+    "disorder": "ASD",
+    "summary": "Dysfunction in the Salience Network (AI–ACC) and its interaction with the Frontoparietal Control Network (DLPFC) is linked to difficulties in attention switching and assigning salience to social stimuli.",
+    "regions_AAL_C": [
+      "Insula_L",
+      "Insula_R",
+      "Cingulum_Ant_L",
+      "Cingulum_Ant_R",
+      "Frontal_Mid_L",
+      "Frontal_Mid_R"
+    ],
+    "networks_E": ["SAL", "FPN", "DMN"],
+    "claims": [
+      "AI–ACC connectivity is reduced in many cohorts, impairing salience detection.",
+      "Reduced efficiency in the FPN (particularly right DLPFC) impacts executive control.",
+      "Task-state misalignment is observed in prefrontal–limbic coupling during cognitive shifts."
+    ]
+  },
+  {
+    "id": "ASD-SEX-004",
+    "disorder": "ASD",
+    "summary": "Sex-differential patterns are observed, though findings are heterogeneous. Females with ASD may rely more on compensatory prefrontal mechanisms (associated with camouflaging) rather than showing the distinct posterior decoupling often seen in males.",
+    "regions_AAL_C": [
+      "Frontal_Sup_Medial_L",
+      "Frontal_Sup_Medial_R",
+      "Cingulum_Post_L",
+      "Cingulum_Post_R",
+      "Postcentral_L",
+      "Postcentral_R",
+      "Cerebellum_Crus1_L",
+      "Cerebellum_Crus1_R",
+      "SupraMarginal_L",
+      "SupraMarginal_R",
+      "Temporal_Sup_L",
+      "Temporal_Sup_R"
+    ],
+    "networks_E": ["DMN", "SMN", "CBL", "FPN", "DAN"],
+    "claims": [
+      "Sex-by-diagnosis interactions suggest distinct neural signatures for males and females.",
+      "Females with ASD may exhibit different connectivity in social-cognitive circuits (e.g., STS/TPJ) linked to compensatory 'camouflaging' strategies.",
+      "Males with ASD tend to align more consistently with canonical DMN hypoconnectivity models."
+    ]
+  },
+  {
+    "id": "ASD-AGE-005",
+    "disorder": "ASD",
+    "summary": "Adolescent developmental trajectories in ASD show delayed maturation, characterized by a slower strengthening of long-range connectivity and slower reduction of local connectivity (prolonged dedifferentiation).",
+    "regions_AAL_C": [
+      "Frontal_Sup_Medial_L",
+      "Frontal_Sup_Medial_R",
+      "Precuneus_L",
+      "Precuneus_R",
+      "Temporal_Sup_L",
+      "Temporal_Sup_R"
+    ],
+    "networks_E": ["DMN", "FPN", "SMN"],
+    "claims": [
+      "Delayed strengthening of long-range fronto-temporal and DMN links compared to neurotypical peers.",
+      "Slower reduction of local connectivity during adolescence.",
+      "Functional dedifferentiation persists longer into development than in typical controls."
+    ]
+  },
+  {
+    "id": "ASD-IQ-006",
+    "disorder": "ASD",
+    "summary": "High-functioning ASD (higher IQ) is associated with distinct cross-network coupling, particularly involving the Frontoparietal Control Network (mPFC–DLPFC–Parietal), which is hypothesized to support compensatory cognitive performance.",
+    "regions_AAL_C": [
+      "Frontal_Sup_Medial_L",
+      "Frontal_Sup_Medial_R",
+      "Frontal_Mid_L",
+      "Frontal_Mid_R",
+      "Parietal_Sup_L",
+      "Parietal_Sup_R",
+      "Precuneus_L",
+      "Precuneus_R"
+    ],
+    "networks_E": ["DMN", "FPN", "DAN"],
+    "claims": [
+      "Enhanced mPFC–DLPFC–Parietal coupling is observed specifically in HF-ASD.",
+      "Increased connectivity in control networks may represent a compensatory mechanism for core deficits."
+    ]
+  }
+]

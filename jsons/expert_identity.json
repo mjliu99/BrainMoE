@@ -1,0 +1,54 @@
+[
+  {
+    "id": "E1",
+    "name": "Local GCN (1-hop)",
+    "summary": "First-order graph convolution aggregating information from immediate graph neighbors (as defined by the functional-connectivity adjacency).",
+    "mechanism": "1-hop message passing using a first-order spectral approximation (e.g., renormalized Laplacian / first-order Chebyshev-style formulation as in standard GCN).",
+    "aggregation_scope": "Local (1-hop)",
+    "strengths": [
+      "Captures tightly coupled connectivity patterns within locally connected graph neighborhoods.",
+      "Often robust for modular subgraphs with strong within-module coherence."
+    ],
+    "applicable_networks": ["SMN", "VN"],
+    "description": "E1 aggregates only over immediate graph neighbors (i.e., edges in the adjacency matrix derived from functional connectivity, not necessarily spatial adjacency). This is often a good fit for SMN (sensorimotor areas with strong within-network coupling) and VN (visual occipital regions with strong within-network coupling)."
+  },
+  {
+    "id": "E2",
+    "name": "Two-layer GCN (2-hop receptive field)",
+    "summary": "A mid-range graph model capturing direct and indirect pathways via a 2-hop receptive field.",
+    "mechanism": "A 2-hop receptive field achieved by stacking two 1-hop GCN layers (or equivalently using a K=2 polynomial filter, depending on implementation).",
+    "aggregation_scope": "Local + mid-range (2-hop)",
+    "strengths": [
+      "Balances local specialization with moderate cross-module integration.",
+      "Captures indirect functional dependencies through short graph paths."
+    ],
+    "applicable_networks": ["DAN", "VAN", "LIN", "SBN"],
+    "description": "E2 captures short-to-mid range dependencies via 2-hop propagation. This can suit DAN (dorsal frontoparietal attention system), VAN (ventral attention/salience network involving insula and midcingulate cortex), LIN (limbic/paralimbic affective circuitry including orbitofrontal, parahippocampal, and temporal pole regions), and SBN (subcortical nuclei such as thalamus, basal ganglia, hippocampus, and amygdala interacting with cortex via multi-synaptic loops)."
+  },
+  {
+    "id": "E3",
+    "name": "Graph Transformer",
+    "summary": "Global self-attention dynamically weighting pairwise node interactions to model long-range integration.",
+    "mechanism": "Multi-head self-attention over node embeddings augmented with graph structural positional encodings (e.g., Laplacian eigenvector PE or random-walk structural encodings).",
+    "aggregation_scope": "Global (all-to-all attention)",
+    "strengths": [
+      "Models long-distance functional coupling between spatially remote regions.",
+      "Can highlight hub nodes and cross-network integration patterns."
+    ],
+    "applicable_networks": ["DMN", "FPN"],
+    "description": "E3 supports flexible long-range integration. This is often useful for DMN (distributed medial prefrontal, posterior cingulate, angular gyrus, and temporal regions) and FPN (distributed lateral prefrontal and parietal regions coordinating control and coupling across multiple systems)."
+  },
+  {
+    "id": "E4",
+    "name": "Spectral GNN (multi-scale filtering)",
+    "summary": "Spectral-domain graph filtering capturing multi-scale topological structure through frequency-aware transformations of graph signals.",
+    "mechanism": "Learnable spectral filters defined in the Laplacian spectrum, commonly implemented via polynomial spectral approximations (e.g., Chebyshev polynomials) and optionally via explicit eigenbasis methods when feasible.",
+    "aggregation_scope": "Multi-scale (spectral domain)",
+    "strengths": [
+      "Captures smooth (low-frequency) and localized (high-frequency) components of graph signals.",
+      "Sensitive to community structure, modularity, and hierarchical organization."
+    ],
+    "applicable_networks": ["CBL", "DMN", "FPN"],
+    "description": "E4 decomposes connectivity patterns into frequency components, enabling simultaneous characterization of global integration and fine-grained modular structure. This can be useful for CBL (cerebellar organization with lobular structure and long-range cerebro-cerebellar loops) and can complement attention-based global models on DMN and FPN by emphasizing hierarchical modularity in the spectral domain."
+  }
+]

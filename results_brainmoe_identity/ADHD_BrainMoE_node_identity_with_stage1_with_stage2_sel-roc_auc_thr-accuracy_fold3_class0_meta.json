@@ -1,0 +1,9 @@
+{
+  "num_graphs": 98,
+  "expert_names": [
+    "mlp",
+    "cheb",
+    "gt",
+    "gcn"
+  ]
+}

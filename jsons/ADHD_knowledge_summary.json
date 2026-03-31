@@ -1,0 +1,123 @@
+[
+  {
+    "id": "ADHD-DMN-001",
+    "disorder": "ADHD",
+    "summary": "Individuals with ADHD frequently show excessive activation and reduced task-related suppression in Default Mode Network (DMN) hubs, termed 'DMN interference,' which is linked to attentional lapses.",
+    "regions_AAL_C": [
+      "Precuneus_L",
+      "Precuneus_R",
+      "Cingulum_Post_L",
+      "Cingulum_Post_R",
+      "Frontal_Sup_Medial_L",
+      "Frontal_Sup_Medial_R"
+    ],
+    "networks_E": ["DMN"],
+    "claims": [
+      "DMN often fails to deactivate properly during attention-demanding tasks.",
+      "Precuneus and mPFC frequently exhibit persistent hyperconnectivity.",
+      "Aberrant DMN–FPN anticorrelation is a robust predictor of inattentive symptoms."
+    ]
+  },
+  {
+    "id": "ADHD-FPN-DAN-002",
+    "disorder": "ADHD",
+    "summary": "Weakened long-range connectivity between the Frontoparietal Control Network (FPN) and Dorsal Attention Network (DAN) is often observed, contributing to deficits in top-down attentional control.",
+    "regions_AAL_C": [
+      "Frontal_Sup_L",
+      "Frontal_Sup_R",
+      "Frontal_Mid_L",
+      "Frontal_Mid_R",
+      "Parietal_Sup_L",
+      "Parietal_Sup_R"
+    ],
+    "networks_E": ["FPN", "DAN", "DMN"],
+    "claims": [
+      "Reduced intra-FPN connectivity and diminished coupling with DAN are common findings.",
+      "Impaired top-down control affects the ability to shift attention voluntarily.",
+      "Hypoconnectivity in these networks correlates with the severity of clinical inattention."
+    ]
+  },
+  {
+    "id": "ADHD-SMN-CBL-003",
+    "title": "Motor and cerebellar network dysfunction",
+    "disorder": "ADHD",
+    "summary": "Abnormal connectivity in somatomotor and cerebellar networks reflects deficits in motor control and temporal processing (timing), which are frequent endophenotypes of ADHD.",
+    "regions_AAL_C": [
+      "Precentral_L",
+      "Precentral_R",
+      "Postcentral_L",
+      "Postcentral_R",
+      "Cerebellum_Crus1_L",
+      "Cerebellum_Crus1_R",
+      "Cerebellum_6_L",
+      "Cerebellum_6_R"
+    ],
+    "networks_E": ["SMN", "CBL"],
+    "claims": [
+      "Reduced Precentral–Cerebellar coupling impairs sensorimotor integration.",
+      "Hyperconnectivity within SMN is often linked to hyperactivity/impulsivity.",
+      "Cerebellar hypoactivation is associated with deficits in interval timing tasks."
+    ]
+  },
+  {
+    "id": "ADHD-SN-004",
+    "disorder": "ADHD",
+    "summary": "Dysfunction in the Salience Network (AI–ACC) can disrupt the 'switching' mechanism between DMN and FPN, contributing to impaired response inhibition.",
+    "regions_AAL_C": [
+      "Insula_L",
+      "Insula_R",
+      "Cingulum_Ant_L",
+      "Cingulum_Ant_R",
+      "Frontal_Mid_L",
+      "Frontal_Mid_R",
+      "Parietal_Inf_L",
+      "Parietal_Inf_R"
+    ],
+    "networks_E": ["DMN", "FPN", "VAN", "SAL"],
+    "claims": [
+      "Reduced connectivity between Anterior Insula (AI) and ACC decreases salience detection.",
+      "Diminished SN–FPN coupling impairs engagement with task-relevant stimuli.",
+      "Abnormal insula activation correlates with impulsivity scores in many cohorts."
+    ]
+  },
+  {
+    "id": "ADHD-AGE-005",
+    "disorder": "ADHD",
+    "summary": "Longitudinal studies suggest a pattern of 'delayed maturation' in ADHD, particularly in frontostriatal circuits and the segregation of DMN–FPN systems.",
+    "regions_AAL_C": [
+      "Frontal_Sup_Medial_L",
+      "Frontal_Sup_Medial_R",
+      "Caudate_L",
+      "Caudate_R",
+      "Putamen_L",
+      "Putamen_R",
+      "Precuneus_L",
+      "Precuneus_R"
+    ],
+    "networks_E": ["DMN", "FPN", "STR"],
+    "claims": [
+      "Frontostriatal connectivity tends to increase more slowly with age compared to controls.",
+      "DMN–FPN anticorrelation often reaches mature levels later than in typical development.",
+      "Delayed network segregation provides a neural basis for persistent symptoms into adolescence."
+    ]
+  },
+  {
+    "id": "ADHD-IQ-006",
+    "disorder": "ADHD",
+    "summary": "Individuals with ADHD who have higher IQs often exhibit partial normalization or compensatory hyperconnectivity in prefrontal and parietal regions, supporting better cognitive control.",
+    "regions_AAL_C": [
+      "Frontal_Mid_L",
+      "Frontal_Mid_R",
+      "Parietal_Sup_L",
+      "Parietal_Sup_R",
+      "Precuneus_L",
+      "Precuneus_R"
+    ],
+    "networks_E": ["FPN", "DMN", "DAN"],
+    "claims": [
+      "Enhanced DLPFC–Parietal coupling is observed in high-IQ ADHD groups.",
+      "Compensatory activation may mitigate observed attentional lapses.",
+      "Cognitive reserve may mask underlying connectivity deficits in behavioral performance."
+    ]
+  }
+]
